@@ -1,0 +1,23 @@
+.cube {
+    position: relative;
+}
+.side {
+    height: 95px;
+    position: absolute;
+    text-align: center;
+
+    width: 95px;
+}
+
+.top {
+    background: green;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+}
+.left {
+    background: burlywood;
+    transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+}
+.right {
+    background: blue;
+    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%)
+}
